@@ -1,0 +1,71 @@
+<style>
+html {
+    background-image: url("EA.jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+
+body {
+    display: table;
+}
+
+article, footer, header {
+    font-family: "Courier New", Courier, monospace;
+}
+
+:visited{
+    color: #FFFFFF;
+}
+
+footer.limite-abajo {
+    font-size: 0.7em;
+    position: fixed;
+    bottom: 0px;
+    left: -20px;
+    background-color: #0F0D0D;
+    padding-right: 25px;
+    padding-top: -30px;
+    padding-left:1190px;
+    margin-left: 10px;
+}
+
+#ingreso {
+    background-color: hsla(205,75%,35%,0.53);
+    padding: 25px 20px 10px 20px;
+}
+
+header {
+    display: table;
+    margin-bottom: 300px;
+    font-size: 1.1em;
+    color: #D6D6D6;
+    background-color: hsla(360, 75%, 25%, 0.70);
+    padding: 10px 5px 3px 5px;
+}
+
+#Entrar {
+    border = 0px solid #4078b2;
+    background: hsla(10, 15%, 25%, 0.87);
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    margin-left: 120px;
+    padding: 3px 12px 3px 12px;
+    border: solid 1px #20538D; //Quitarle el borde naco
+}
+
+a:hover{
+    color: #666;
+}
+
+input:not([type="submit"]){
+    width: 200px;
+    height: 18px;
+    margin: 5px 5px 5px 10px;
+    margin-left: -10px;
+    padding-top: 7px;
+    padding-bottom:2px;
+    padding-left: 2px;
+}
+
+</style>
